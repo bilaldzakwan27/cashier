@@ -20,15 +20,4 @@ public class User extends Model {
         this.password = password;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "userName='" + userName + '\'' +
-                ", password='" + password + '\'' +
-                ", dateCreated=" + dateCreated +
-                ", lastModified=" + lastModified +
-                ", created='" + created + '\'' +
-                ", updatedBy='" + updatedBy + '\'' +
-                '}';
-    }
 }
