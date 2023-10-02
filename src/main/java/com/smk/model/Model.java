@@ -1,11 +1,11 @@
-package com.smk;
+package com.smk.model;
 
 import java.util.Date;
 
 public abstract class Model {
     protected Date dateCreated;
     protected Date lastModified;
-    protected String created;
+    protected String createdBy;
     protected String updatedBy;
 
     public Date getDateCreated() {
@@ -24,12 +24,12 @@ public abstract class Model {
         this.lastModified = lastModified;
     }
 
-    public String getCreated() {
-        return created;
+    public String getCreatedBy() {
+        return createdBy;
     }
 
-    public void setCreated(String created) {
-        this.created = created;
+    public void setCreatedBy(String createdBy) {
+        this.createdBy = createdBy;
     }
 
     public String getUpdatedBy() {
